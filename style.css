@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dee4f2;
+}
+#card{
+    height: 100vh;
+    position: relative;
+}
+#card .card{
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#card .card .save span{
+    background-color: #7522a2;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    line-height: 14px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+}
+ #card .card .details h4 a{
+    text-decoration: none;
+    font-size: 12px;
+ }
+ #card .card .details h4:hover a{
+    text-decoration: underline;
+    color: #e83e19;
+ }
+
+#card .card ul{
+    padding: 15px 0 15px 15px;  
+}
+
+#card .card ul li{
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 5px;
+ }
+ #card .card .price{
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+ }
+#card .card .price span:first-child{
+    color: #d8401d;
+}
+#card .card .price span:last-child{
+    text-decoration: line-through;
+    font-weight: 10px;
+    color: #666666;
+    margin-left: 2px;
+}
+#card .card .action button:first-child{
+    background-color: rgba(55, 73, 187, 0.144);
+    display:block;
+    width: 100%;
+    opacity: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    color: blue;
+    text-transform: capitalize;
+    display: flex;
+    line-height: 0;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+} 
+#card .card .action button:first-child:hover{
+    background-color: #2839a3;
+    color:#fff
+}
+#card .card .action button:last-child span:first-child{
+    margin-left: 10px;
+}
+#card .card .action button:last-child{
+    margin-top: 10px;
+    background-color: rgba(55, 73, 187, 0.144);
+    display:block;
+    width: 100%;
+    opacity: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    color: blue;
+    text-transform: capitalize;
+    display: flex;
+    line-height: 0;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+#card .card .action button:last-child span:first-child{
+    margin-left: 10px;
+}
+#card .card .action button:last-child:hover{
+  background-color: #2738a3;
+  color: #fff;
+}
+
+
